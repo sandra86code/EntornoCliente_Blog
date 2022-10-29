@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+    <body>
+        <div id="container" class="container">
+            <div id="header" class="header">
+                <h2><a href="index.html">My Music Info</a></h2>
+            </div>
+            <div id="middle" class="middle">
+                <div id="leftMenu" class="leftMenu">
+                    <ul>
+                        <a href="index.html"><li>Listado de posts</li></a>
+                        <a href="addUser.html"><li>Añadir usuario</li></a>
+                        <a href="addPost.html"><li>Añadir post</li></a>
+                    </ul>
+                </div>
+                <div id="content" class="content">
+                    <h1 id="title"></h1>
+                    <div id="postDate">Fecha de publicación: </div>
+                    <div id="authorName">Autor: </div>
+                    <div id="postContent"></div>
+                    <hr class="line">
+                    <div id="addComment">
+                        <form action="" id="addComment" method="post">
+                            <h1>Añade tu comentario</h1>
+                            <div class="form-field" >            
+                                <label for="usersSelect">Elige tu usuario:</label>
+                                <select id="usersSelect">
+                                </select>
+                                <small></small>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="bodyComment">Escribe tu comentario:</label>     
+                                <textarea name="bodyComment" id="bodyComment" rows="10" cols="20"></textarea>
+                                <small></small>
+                            </div>
+                            <div class="form-field">   
+                                <input type="reset" value="Borrar" id="resetButton">
+                                <input type="submit" value="Enviar" id="submitButton">
+                            </div>
+                        </form>
+                    </div>
+                    <div id="comments">
+                        <h2>Comentarios</h2>
+                    </div>
+                </div>
+            </div>
+            
+        </div> 
+    <script src="js/post.js"></script> 
+</body>
+</html>

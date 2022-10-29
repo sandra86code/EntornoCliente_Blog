@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadir Posts</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+</head>
+
+<body>
+    <div id="container" class="container">
+        <div id="header" class="header">
+            <h2><a href="index.html">My Music Info</a></h2>
+        </div>
+        <div id="middle" class="middle">
+            <div id="leftMenu" class="leftMenu">
+                <ul>
+                    <a href="index.html"><li>Listado de posts</li></a>
+                    <a href="addUser.html"><li>Añadir usuario</li></a>
+                    <a href="addPost.html"><li>Añadir post</li></a>
+                </ul>
+            </div>
+            
+            <div id="content" class="content">
+                <h1>Añade un post</h1>
+                <form action="" id="addPost" method="post">
+                    <div class="form-field" >            
+                        <label for="title">Título:</label>
+                        <input type="text" name="title" id="title" autocomplete="off">
+                        <small></small>
+                    </div>
+                    <div class="form-field" >            
+                        <label for="content">Contenido del post:</label>
+                        <textarea name="content" rows="10" cols="50" id="postContent"></textarea>
+                        <small></small>
+                    </div>
+                    <div class="form-field" >            
+                        <label for="usersSelect">Elige tu usuario:</label>
+                        <select id="usersSelect">
+                        </select>
+                        <small></small>
+                    </div>
+                    <div class="form-field">   
+                        <input type="reset" value="Borrar" id="resetButton">
+                        <input type="submit" value="Enviar" id="submitButton">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/addPost.js"></script>
+</body>
+
+</html>

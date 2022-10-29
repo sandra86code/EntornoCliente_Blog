@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Stromae - L'enfer",
+      "content": "<i>L'enfer</i> is a song by Belgian singer-songwriter Stromae. It was first released on 9 January 2022 with a live performance during an interview on the evening news on main French television channel TF1. It deals with depression and suicidal thoughts. It is the second single from his album Multitude, which was released on 4 March 2022.",
+      "youtube": "www.youtube.com/embed/AzGZPlu7GvY",
+      "date": "2022-01-09",
+      "authorId": 1
+    },
+    {
+      "id": 2,
+      "title": "Romeo Santos feat. Rosalía - El pañuelo",
+      "content": "<i>El Pañuelo</i> is a song recorded by American singer Romeo Santos alongside Spanish singer and songwriter Rosalía. It samples and interpolates the 1985 track <i>No Sé Qué Hacer</i>, performed by Carlos Manuel <i>El Zafiro</i>. An accompanying music video filmed at an indoor studio in Los Angeles and produced by Canada and Park Pictures was shared on YouTube upon the record's release.",
+      "youtube": "https://www.youtube.com/embed/ojCkgU5XGdg?feature=oembed",
+      "date": "2022-09-02",
+      "authorId": 1
+    },
+    {
+      "id": 3,
+      "title": "Diodato - Fai rumore",
+      "content": "<i>Fai rumore</i> is a song written and performed by Italian singer Antonio Diodato. It was released as a single on 7 February 2020 and was featured on his album Che vita meravigliosa. The song won the Sanremo Music Festival 2020, and would have represented Italy in the Eurovision Song Contest 2020 in Rotterdam, Netherlands, before the event's cancellation due to the COVID-19 pandemic. It topped the Italian singles chart in its second week of release.",
+      "youtube": "q4gQhL4kWVI",
+      "date": "2020-02-07",
+      "authorId": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "It's crazy to think about Eurovision 2020 being cancelled, Italians singing this song during quarantine on their balconies, Diodato singing this in the empty arena of Verona. Him singing about this silence, hard to take and how he makes “rumore” to break it. After 2 Years the whole Eurovision community makes “rumore” together with Diodato after all this time. I think this will be my all time favorite Eurovision performance…",
+      "authorId": 1,
+      "postId": 3,
+      "date": "2022-10-15"
+    },
+    {
+      "id": 2,
+      "body": "Tutti gli stranieri, anche sotto i video dei Maneskin, scrivono che l'italiano è una lingua meravigliosa... quanto vorrei essere straniera per un giorno e sentire come loro sentono la nostra lingua.",
+      "authorId": 2,
+      "postId": 3,
+      "date": "2022-10-23"
+    },
+    {
+      "id": 3,
+      "body": "Un génie légendaire ! Quelle chance de vivre à la même époque que lui ! Bravo à l'équipe de sa direction artistique !",
+      "authorId": 3,
+      "postId": 1,
+      "date": "2022-09-23"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Sandra Ruiz",
+      "nick": "sandra86code"
+    },
+    {
+      "name": "pedri",
+      "nick": "yosss",
+      "id": 2
+    },
+    {
+      "name": "pepi",
+      "nick": "pepi",
+      "id": 3
+    }
+  ]
+}
